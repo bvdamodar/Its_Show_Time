@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#3f2b96"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:layout_marginBottom="10dp"
+        android:weightSum="1">
+
+
+
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/image"/>
+
+        <Button
+            android:id="@+id/ticketButton"
+            android:layout_width="102dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#8b0000"
+            android:text="Tickets"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_alignParentRight="true"
+            android:background="#013220"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="Contact"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/gradient_background"
+        android:layout_width="match_parent"
+        android:weightSum="8"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#3f2b96"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:layout_marginBottom="10dp"
+            android:weightSum="1">
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:background="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="2"
+        android:layout_marginBottom="10dp"
+        android:weightSum="3"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmation"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="@color/EerieBlack"/>
+
+        <ImageView
+            android:id="@+id/code"
+            android:layout_width="125dp"
+            android:layout_gravity="center"
+            android:layout_height="125dp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4"
+            android:layout_marginBottom="10dp"
+            android:weightSum="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleFilmDetailed"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:text="Title"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#3f2b96"
+                android:textAlignment="center"
+                />
+
+            <LinearLayout
+                android:background="#ffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.1"
+                android:weightSum="2"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="Plot: "
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="#3f2b96"
+                    android:textAlignment="center"
+                    />
+
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/giveSeatsDetailed"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#2e2e2e"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="lkjhdlfkajshdflkadsjhflskd"/>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dateTicketDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:text="Date: 12-12-18 Time: 12:00"
+                    android:textSize="20dp"
+                    android:textColor="#3f2b96"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:text="ID:"
+                    android:textSize="30dp"
+                    android:textColor="#3f2b96"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:id="@+id/idNum"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="#2e2e2e"
+                    android:text=" 2000"
+                    android:textSize="30dp"
+                    android:gravity="left"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

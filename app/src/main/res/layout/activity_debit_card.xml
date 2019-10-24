@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:orientation="vertical"
+    tools:context=".DebitCard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debit Card"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="@color/edittextBackground"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/image"/>
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="@color/white"
+        android:textColorHint="@color/zxing_possible_result_points"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:inputType="number"
+        android:maxLength="12"
+        android:hint="Debit Card Number"/>
+
+    <EditText
+        android:id="@+id/cvv"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="CVV"
+        android:inputType="number"
+        android:maxLength="3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pay"
+        android:gravity="center"
+        android:text="Pay"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textview1"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+</LinearLayout>

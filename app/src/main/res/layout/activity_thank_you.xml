@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/gradient_background"
+        android:layout_width="match_parent"
+        android:weightSum="8"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#3f2b96"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/home"
+                android:gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/image"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:weightSum="3">
+
+            ]
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="#ffff"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:layout_weight="3"
+                android:weightSum="4"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Thank you for your purchase. Click on the data button to see your ticket"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="#2e2e2e"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            >
+
+
+            <Button
+                android:id="@+id/toHome"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#ff0000"
+                android:text="Home"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textAlignment="center"></Button>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
