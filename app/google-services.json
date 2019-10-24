@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "422384865860",
+    "firebase_url": "https://movieapp-master-e2aec.firebaseio.com",
+    "project_id": "movieapp-master-e2aec",
+    "storage_bucket": "movieapp-master-e2aec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422384865860:android:e370ebc84c705a68",
+        "android_client_info": {
+          "package_name": "com.example.daredevil07.ItsShowTime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422384865860-5lplqp58ll5o5ip1164igbdfuugebcpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daredevil07.ItsShowTime",
+            "certificate_hash": "15e162d72a5dba225b6de2175570f513d779770d"
+          }
+        },
+        {
+          "client_id": "422384865860-ftmiigg1jj699e8mlepnmmlmud8oirjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBwlu7FjA85RHqbEOcsCyTlFKjydln6sk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422384865860-ftmiigg1jj699e8mlepnmmlmud8oirjo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422384865860:android:ad3918ebfa1dbd95",
+        "android_client_info": {
+          "package_name": "com.example.sammy.bioscoop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422384865860-qf1h21mf125tdebcgln9un6konm40kdl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sammy.bioscoop",
+            "certificate_hash": "3ea1b217321543d3320b14eaff5053851fc66005"
+          }
+        },
+        {
+          "client_id": "422384865860-ftmiigg1jj699e8mlepnmmlmud8oirjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBwlu7FjA85RHqbEOcsCyTlFKjydln6sk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422384865860-ftmiigg1jj699e8mlepnmmlmud8oirjo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
